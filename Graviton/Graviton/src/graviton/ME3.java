@@ -43,6 +43,11 @@ public class ME3{
 	return theSlope;
     }
     
+    /**
+     *
+     * @param year The year that you want to analyze
+     * @return Boolean value that indicates whether the year is a leap year
+     */
     public static boolean isLeap(int year){
 	/*
 	Leap year
@@ -61,6 +66,11 @@ public class ME3{
         return false;
     }
     
+    /**
+     *
+     * @param grade Grade from 0 - 100
+     * @return General Weighted Average
+     */
     public static float finalgwa(float grade){
         /*
         General Weighted Average
