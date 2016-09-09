@@ -86,7 +86,7 @@ public class ME3{
 	60-64		3.00
 	below 60	5.00
         */
-	float gwa = (float) 1.0;
+	float gwa = 1.0f;
         int roundedGrade = Math.round(grade);
         if (roundedGrade >= 92 && roundedGrade <= 100)
         {
